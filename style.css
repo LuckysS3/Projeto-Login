@@ -41,7 +41,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .card-login{
     background-color: #312944;
@@ -50,7 +49,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 30px 25px;
+    padding: 40px 35px;
     padding-bottom: 50px;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000050;
@@ -63,12 +62,47 @@ body{
 }
 
 .text-use{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end
+    align-items: flex-start;
     justify-content: center;
 }
 
+.text-use > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000050;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-use > input::placeholder{
+    color: #f0ffff94;
+}
+
+.text-use > label{
+    color: #f0ffffde;
+    margin: 10px;
+}
+
 .btn-login{
-    background-color: rgb(8, 201, 8);
+    width: 100%;
+    margin-top: 35px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #03ffb8 ;
+    outline: none;
+    text-transform: uppercase;
+    font-size: larger;
+    letter-spacing: 3px;
+    color:#312944;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000050;
 }
